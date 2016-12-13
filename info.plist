@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>joelbryan.juliano@gmail.com</string>
+	<key>contactName</key>
+	<string>jjuliano</string>
+	<key>description</key>
+	<string>Debride for Rails bundle for TextMate 2.</string>
+	<key>name</key>
+	<string>Debride-Rails</string>
+	<key>uuid</key>
+	<string>85863CF0-6A7B-4B1B-A5B3-30B0836C404C</string>
+</dict>
+</plist>

@@ -1,0 +1,7 @@
+create
+destroy
+edit
+index
+new
+show
+update
