@@ -8,7 +8,7 @@ Debride-Rails (https://github.com/seattlerb/debride) Textmate 2 Bundle
 Supports
 --------
 * analysing dead and uncalled methods
-* different icons for analysis
+* icon for analysis
 
 Install
 -------

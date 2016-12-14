@@ -20,7 +20,7 @@ def offences(file)
   debride = Debride.run(['--rails', 'true', '--whitelist', whitelist, file])
   debride.missing.each do |klass, meths|
     bad = meths.map { |meth|
-      location = debride.method_locations["#{klass}##{meth}"]
+      location = debride.method_locations["#{klass}##{meth}"] || debride.method_locations["#{klass}::#{meth}"]
       line = location[/.*:(\d+)$/, 1]
       path = location[/(.+):\d+$/, 1]
       [location]
